@@ -6,8 +6,8 @@ name = input("whats your name: ")
 
 # Ask if their birthday has happened this year
 ask = input("Have you had your birthday this year yet? ")
-# use their answer to account for birthyear
 
+# use their answer to account for birthyear
 if ask[0].lower() == 'y':
     birthyear = int(datetime.today().year) - age
 else:
