@@ -15,4 +15,3 @@ else:
 
 # Print out their name and predicted birth year
 print(f"OMG {name} you are {age} years old and you were born in {birthyear}.")
-
